@@ -9,3 +9,6 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
+
+/.idea/
+.DS_Store
