@@ -38,7 +38,7 @@ How do you do it?
 
 1. Install XCode from the Mac App Store.
 1. Open XCode.
-1. Open the Preferences window (`Cmd-,`).
+1. Open the Preferences window (`Cmd + ,`).
 1. Go to the Downloads tab.
 1. Install the Command Line Tools.
 
