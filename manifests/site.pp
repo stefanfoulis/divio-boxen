@@ -50,8 +50,10 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  # include dnsmasq
-  # include nginx
+  include dnsmasq
+  include git
+  include hub
+  include nginx
   include nvm
 
   # fail if FDE is not enabled
@@ -84,22 +86,6 @@ node default {
     target => $boxen::config::repodir
   }
 
-  # custom includes
-  include git
-  include hub
-
-  include python
-  include mysql
-  include postgresql
-  include wget
-
-  include chrome
-  include firefox
-  include skype
-  include vlc
-  include dropbox
-  include onepassword
-  include things
-  include caffeine
-  include spotify
+  # import divio settings
+  include divio::default
 }
