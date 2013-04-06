@@ -87,6 +87,7 @@ node default {
   include gitx::dev
   include skype
   include libtool
+  include postgresql
 
 
   # common, useful packages
