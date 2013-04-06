@@ -77,10 +77,14 @@ node default {
   include firefox
 
   include python
+  include pkgconfig
   include xquartz
   include redis
   include memcached
   include memcached::lib
+
+  include iterm2::stable
+
 
   # common, useful packages
   package {
