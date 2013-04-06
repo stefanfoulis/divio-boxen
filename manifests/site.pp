@@ -78,6 +78,7 @@ node default {
 
   # python and services
   include python
+  include xquartz
   include redis
   include memcached::lib
 
