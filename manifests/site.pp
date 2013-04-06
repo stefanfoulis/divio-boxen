@@ -84,6 +84,7 @@ node default {
   include memcached::lib
 
   include iterm2::stable
+  include gitx::dev
 
 
   # common, useful packages
