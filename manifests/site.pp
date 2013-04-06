@@ -85,6 +85,7 @@ node default {
 
   include iterm2::stable
   include gitx::dev
+  include skype
 
 
   # common, useful packages
