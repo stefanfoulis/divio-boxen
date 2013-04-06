@@ -81,6 +81,10 @@ node default {
     ]:
   }
 
+  # browsers
+  include chrome
+  include firefox
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
