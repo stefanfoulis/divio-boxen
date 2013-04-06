@@ -72,14 +72,14 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-  # browsers
+  # custom includes
   include chrome
   include firefox
 
-  # python and services
   include python
   include xquartz
   include redis
+  include memcached
   include memcached::lib
 
   # common, useful packages
