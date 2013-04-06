@@ -72,6 +72,15 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # browsers
+  include chrome
+  include firefox
+
+  # python and services
+  include python
+  include redis
+  include memcached::lib
+
   # common, useful packages
   package {
     [
@@ -80,10 +89,6 @@ node default {
       'gnu-tar'
     ]:
   }
-
-  # browsers
-  include chrome
-  include firefox
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

@@ -35,3 +35,6 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 github "chrome",   "1.1.0"
 github "firefox",  "1.0.5"
+github "python",   "1.1.1"
+github "redis",    "1.0.0"
+github "memcached","1.2.0"
